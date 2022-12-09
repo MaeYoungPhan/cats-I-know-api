@@ -63,11 +63,11 @@
       "foundDate": "2020-01-31",
       "location": "getCurrentPosition()",
       "fixed": false,
-      "microchip": false,
+      "microchip": true,
       "vaccinated": false,
       "shotDate": "na",
       "isOut": false,
-      "outReason": "not out",
+      "outReason": "",
       "notes": "grouchy, has eye goop",
       "image": "https://www.peta.org/wp-content/uploads/2013/03/companion_animals_do_cap_pics_feral_cats_lovers_lane_rich_square_nc_003.jpg"
     },
@@ -100,21 +100,6 @@
       "outReason": "not out",
       "notes": "likes to poop on things",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Feral_cat_1.JPG"
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "name": "Fishlips",
-      "foundDate": "2021-05-17",
-      "location": "getCurrentPosition()",
-      "fixed": false,
-      "microchip": false,
-      "vaccinated": false,
-      "shotDate": "na",
-      "isOut": false,
-      "outReason": "not out",
-      "notes": "Won't let me pet her",
-      "image": "https://www.ovrs.com/blog/wp-content/uploads/2017/05/OVRS_iStock-499469803-1024x682.jpg"
     },
     {
       "id": 7,
@@ -213,7 +198,7 @@
       "userId": 3,
       "nickname": "Salty Stinkers",
       "location": "getCurrentPosition()",
-      "feedingTime": "5:00pm",
+      "feedingTime": "17:00",
       "dateCreated": "12/01/2022",
       "image": "https://www.wdwinfo.com/wp-content/uploads/2018/09/Feral-Cats-1.jpg"
     },
@@ -222,7 +207,7 @@
       "userId": 2,
       "nickname": "Kitty Krew 2",
       "location": "getCurrentPosition()",
-      "feedingTime": "8:00pm",
+      "feedingTime": "20:00",
       "dateCreated": "04/05/2019",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShtVkeALZkbquMqb73CyC44ZPwdA922Zh_eg&usqp=CAU"
     },
@@ -231,7 +216,7 @@
       "userId": 4,
       "nickname": "Cheerios",
       "location": "getCurrentPosition()",
-      "feedingTime": "8:00am",
+      "feedingTime": "08:00",
       "dateCreated": "02/04/2020",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5xCJemhP1z23ew2uvwAl0dxRayoX0bhr_ew&usqp=CAU"
     },
@@ -240,7 +225,7 @@
       "userId": 1,
       "nickname": "Donelson Dudes",
       "location": "getCurrentPosition()",
-      "feedingTime": "7:00am",
+      "feedingTime": "07:00",
       "dateCreated": "10/30/2018",
       "image": "https://t1.ea.ltmcdn.com/en/posts/7/5/3/what_to_do_with_a_feral_cat_colony_2357_orig.jpg"
     },
@@ -252,14 +237,18 @@
       "dateCreated": "2022-12-08",
       "image": "https://ucancincinnati.org/wp-content/uploads/feral-cat-colony-600x330-300x165.jpg",
       "id": 5
+    },
+    {
+      "userId": 2,
+      "nickname": "Poopies",
+      "location": "getCurrentPosition()",
+      "feedingTime": "16:20",
+      "dateCreated": "2022-12-09",
+      "image": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/FeralCats.jpg",
+      "id": 6
     }
   ],
   "colonyCats": [
-    {
-      "id": 1,
-      "catId": 1,
-      "colonyId": 3
-    },
     {
       "id": 2,
       "catId": 8,
@@ -271,34 +260,29 @@
       "colonyId": 1
     },
     {
-      "id": 1,
+      "id": 3,
       "catId": 7,
       "colonyId": 1
     },
     {
-      "id": 1,
-      "catId": 3,
-      "colonyId": 2
-    },
-    {
-      "id": 1,
-      "catId": 6,
-      "colonyId": 2
-    },
-    {
-      "id": 1,
+      "id": 6,
       "catId": 5,
       "colonyId": 4
     },
     {
-      "id": 1,
+      "id": 7,
       "catId": 4,
       "colonyId": 4
     },
     {
       "catId": 14,
       "colonyId": 2,
-      "id": 3
+      "id": 8
+    },
+    {
+      "catId": 3,
+      "colonyId": 2,
+      "id": 9
     }
   ],
   "colonyLogEntries": [
@@ -315,16 +299,16 @@
       "colonyId": 2,
       "food": true,
       "water": true,
-      "date": "2022-12-08",
-      "id": 2
+      "date": "2022-12-04",
+      "id": 3
     },
     {
       "userId": 2,
-      "colonyId": 2,
+      "colonyId": 5,
       "food": true,
       "water": true,
-      "date": "2022-12-04",
-      "id": 3
+      "date": "2022-12-07",
+      "id": 4
     }
   ]
 }
