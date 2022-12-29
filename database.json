@@ -422,20 +422,32 @@
       "id": 9
     },
     {
-      "userId": 2,
-      "colonyId": 5,
-      "food": true,
-      "water": true,
-      "date": "2022-12-20",
-      "id": 10
-    },
-    {
       "userId": 3,
       "colonyId": 6,
       "food": true,
       "water": true,
       "date": "2022-12-21",
       "id": 11
+    },
+    {
+      "userId": 2,
+      "colonyId": 2,
+      "food": true,
+      "water": true,
+      "date": "2022-12-28",
+      "id": 12
+    }
+  ],
+  "dailyColonyCats": [
+    {
+      "id": 1,
+      "colonyLogEntryId": 9,
+      "catId": 3
+    },
+    {
+      "colonyLogEntryId": 12,
+      "catId": 3,
+      "id": 2
     }
   ]
 }
