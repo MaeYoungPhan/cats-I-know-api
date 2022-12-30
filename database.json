@@ -246,7 +246,7 @@
       "fixed": true,
       "microchip": false,
       "vaccinated": false,
-      "shotDate": "",
+      "shotDate": "none",
       "isOut": false,
       "outReason": "",
       "notes": "",
@@ -357,11 +357,6 @@
       "catId": 12,
       "colonyId": 5,
       "id": 13
-    },
-    {
-      "catId": 14,
-      "colonyId": 2,
-      "id": 14
     }
   ],
   "colonyLogEntries": [
